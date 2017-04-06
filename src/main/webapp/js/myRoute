@@ -1,0 +1,16 @@
+var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+        templateUrl : "images.htm"
+    })
+    .when("/red", {
+        templateUrl : "videos.htm"
+    })
+    .when("/green", {
+        templateUrl : "jokes.htm"
+    })
+    .when("/blue", {
+        templateUrl : "events.htm"
+    });
+});
