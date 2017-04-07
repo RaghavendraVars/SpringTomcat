@@ -17,7 +17,7 @@ public class RestController {
 	@Autowired
 	App app;
 	
-	//I am Checking the changes in GITHUB
+	
 	@RequestMapping("/getVars")
 	public String getVars(){
 		return "index";
